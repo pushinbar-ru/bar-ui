@@ -1,9 +1,9 @@
 {
   "name": "@pushinbar-ru/bar-ui",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/pushinbar-ru"
+    "registry": "https://npm.pkg.github.com/"
   },
-  "version": "0.0.1",
+  "version": "0.0.1d",
   "description": "BarUI — отличное UI решение для тех, кто любит сочетать минимализм и красоту",
   "scripts": {
     "test": "No tests yet. TODO: jest",
