@@ -1,0 +1,35 @@
+.text {
+	font-weight: 400;
+	margin: 0 0 1.5em;
+}
+
+.text_large {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.text_large-wide {
+	line-height: 28px;
+}
+
+.text_medium {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.text_medium-wide {
+	line-height: 24px;
+}
+
+.text_small {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.text_small-wide {
+	line-height: 22px;
+}
+
+.bold {
+	font-weight: 700;
+}

@@ -1,0 +1,27 @@
+:root {
+  --green: #26AD50;
+  --green-hover: #1C8A3F;
+  --green-pressed: #197F39;
+
+  --red: #FF5A49;
+  --red-hover: #BA342E;
+  --red-pressed: #A92A27;
+  --red-warning: #FFA9A0;
+
+  --blue: #2291FF;
+  --blue-hover: #1874CF;
+  --blue-pressed: #156ABE;
+
+  --yellow: #E5C61E;
+  --yellow-hover: #CDB012;
+  --yellow-pressed: #B59800;
+
+  --white: #FFFFFF;
+  --white-hover: #D3D3D3;
+  --white-pressed: #B7B5B5;
+  --white-inactive: #646464;
+
+  --black: #000000;
+  --black-hover: #373737;
+  --black-pressed: #252525;
+}

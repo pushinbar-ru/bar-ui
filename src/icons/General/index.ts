@@ -1,0 +1,16 @@
+export { default as BankIcon } from "./Bank";
+export { default as BeerIcon } from "./Beer";
+export { default as BoxIcon } from "./Box";
+export { default as CalendarIcon } from "./Calendar";
+export { default as CardIcon } from "./Card";
+export { default as ClockIcon } from "./Clock";
+export { default as FilterIcon } from "./Filter";
+export { default as HomeIcon } from "./Home";
+export { default as PaletteIcon } from "./Palette";
+export { default as SaladIcon } from "./Salad";
+export { default as ShoppingBagIcon } from "./ShoppingBag";
+export { default as ShoppingBasketIcon } from "./ShoppingBasket";
+export { default as ShoppingCartIcon } from "./ShoppingCart";
+export { default as WalletIcon } from "./Wallet";
+export { default as Milk } from "./Milk"
+export { default as Peanut } from "./Peanut"

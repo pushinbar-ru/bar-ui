@@ -1,0 +1,20 @@
+.select-item {
+	padding: 8px 16px;
+	list-style: none;
+	font-size: 18px;
+	line-height: 28px;
+	color: var(--white);
+	cursor: pointer;
+	border-radius: 4px;
+	transition: all 0.2s ease-in;
+}
+
+.select-item:hover {
+	color: var(--black-hover);
+	background-color: var(--white-hover);
+}
+
+.select-item_selected {
+	color: var(--black-hover);
+	background-color: var(--white);
+}

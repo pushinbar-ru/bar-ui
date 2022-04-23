@@ -1,0 +1,11 @@
+export { default as BullhornIcon } from "./Bullhorn";
+export { default as CommenIcon } from "./Commen";
+export { default as DislikeIcon } from "./Dislike";
+export { default as EnvelopeIcon } from "./Envelope";
+export { default as EnvelopeOpenIcon } from "./EnvelopeOpen";
+export { default as ForwardIcon } from "./Forward";
+export { default as LikeIcon } from "./Like";
+export { default as SendIcon } from "./Send";
+export { default as ShareIcon } from "./Share";
+export { default as ShareBoxIcon } from "./ShareBox";
+export { default as UserIcon } from "./User";

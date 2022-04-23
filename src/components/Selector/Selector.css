@@ -1,0 +1,31 @@
+.selector {
+	display: inline-flex;
+	background-color: var(--white-inactive);
+	border-radius: 4px;
+}
+
+.selector input[type="radio"] {
+	position: absolute;
+	left: -9999px;
+}
+
+.selector input[type="radio"]:checked + label {
+	color: var(--black);
+	background-color: var(--white);
+}
+
+.selector label {
+	padding: 8px 16px;
+	font-size: 18px;
+	line-height: 28px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.selector label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.selector label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}

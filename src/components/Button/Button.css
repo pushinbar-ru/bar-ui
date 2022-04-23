@@ -1,0 +1,234 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+}
+
+.button:focus-visible {
+	outline: 1px solid var(--white-pressed);
+}
+
+.button_with-icon .icon {
+	margin-right: 4px;
+}
+
+.button_with-icon.button_without-text .icon {
+	margin-right: 0;
+}
+
+.button_large {
+	padding: 8px 16px;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.button_large .icon {
+	font-size: 20px !important;
+}
+
+.button_with-icon.button_large {
+	padding-left: 12px;
+}
+
+.button_medium {
+	padding: 8px 16px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.button_medium .icon {
+	font-size: 18px !important;
+}
+
+.button_small {
+	padding: 4px 12px;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.button_small .icon {
+	font-size: 16px !important;
+}
+
+.button_with-icon.button_medium,
+.button_with-icon.button_small {
+	padding-left: 10px;
+}
+
+.button_without-text.button_large {
+	padding: 12px;
+}
+
+.button_without-text.button_medium {
+	padding: 11px;
+}
+
+.button_without-text.button_small {
+	padding: 7px;
+}
+
+.button_white {
+	background-color: var(--white);
+	color: var(--black);
+}
+
+.button_white .icon,
+.button_white .icon path {
+	fill: var(--black);
+}
+
+.button_white:hover {
+	background-color: var(--white-hover);
+	color: var(--black-hover);
+}
+
+.button_white:active {
+	background-color: var(--white-pressed);
+	color: var(--black-hover);
+}
+
+.button_white:focus-visible {
+	color: var(--black-hover);
+}
+
+.button_white:hover .icon,
+.button_white:hover .icon path,
+.button_white:active .icon,
+.button_white:active .icon path,
+.button_white:focus-visible .icon,
+.button_white:focus-visible .icon path {
+	fill: var(--black-hover);
+}
+
+.button_white:disabled {
+	background-color: var(--white-hover);
+	color: var(--white-inactive);
+}
+
+.button_white:disabled .icon,
+.button_white:disabled .icon path {
+	fill: var(--white-inactive);
+}
+
+.button_black {
+	background-color: var(--black);
+	color: var(--white);
+}
+
+.button_black:hover {
+	background-color: var(--black-hover);
+	color: var(--white-hover);
+}
+
+.button_black:active {
+	background-color: var(--black-pressed);
+	color: var(--white-pressed);
+}
+
+.button_black:focus-visible {
+	background-color: var(--black);
+	color: var(--white);
+}
+
+.button_black:disabled {
+	background-color: var(--black-pressed);
+	color: var(--white-inactive);
+}
+
+.button_green {
+	background-color: var(--green);
+	color: rgba(255, 255, 255, 1);
+}
+
+.button_green:hover {
+	background-color: var(--green-hover);
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.button_green:active {
+	background-color: var(--green-pressed);
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.button_green:focus-visible {
+	background-color: var(--green);
+}
+
+.button_green:disabled {
+	background-color: var(--green-pressed);
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.button_red {
+	background-color: var(--red);
+	color: rgba(255, 255, 255, 1);
+}
+
+.button_red:hover {
+	background-color: var(--red-hover);
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.button_red:active {
+	background-color: var(--red-pressed);
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.button_red:focus-visible {
+	background-color: var(--red);
+}
+
+.button_red:disabled {
+	background-color: var(--red-pressed);
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.button_blue {
+	background-color: var(--blue);
+	color: rgba(255, 255, 255, 1);
+}
+
+.button_blue:hover {
+	background-color: var(--blue-hover);
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.button_blue:active {
+	background-color: var(--blue-pressed);
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.button_blue:focus-visible {
+	background-color: var(--blue);
+}
+
+.button_blue:disabled {
+	background-color: var(--blue-pressed);
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.button_transparent {
+	background-color: transparent;
+	color: var(--white);
+}
+
+.button_transparent:hover {
+	background-color: var(--black-hover);
+	color: var(--white-hover);
+}
+
+.button_transparent:active {
+	background-color: var(--black-pressed);
+	color: var(--white-pressed);
+}
+
+.button_transparent:focus-visible {
+	color: var(--white);
+}
+
+.button_transparent:disabled {
+	color: var(--white-inactive);
+}

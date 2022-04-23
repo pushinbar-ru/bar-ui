@@ -1,0 +1,64 @@
+.label {
+	display: inline-flex;
+	align-items: center;
+	color: var(--white);
+}
+
+.label .icon {
+	margin: 0 4px;
+}
+
+.label_large {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.label_large .icon {
+	font-size: 20px !important;
+}
+
+.label_medium {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.label_medium .icon {
+	font-size: 18px !important;
+}
+
+.label_small {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.label_small .icon {
+	font-size: 16px !important;
+}
+
+.label_selected {
+	color: var(--yellow);
+	font-weight: 700;
+}
+
+.label_selected .icon,
+.label_selected .icon path {
+	fill: var(--yellow);
+}
+
+.label:hover {
+	color: var(--white-hover);
+}
+
+.label:hover .icon,
+.label:hover .icon path {
+	fill: var(--white-hover);
+}
+
+.label:active {
+	color: var(--white-pressed);
+}
+
+.label:active .icon,
+.label:active .icon path {
+	fill: var(--white-pressed);
+}

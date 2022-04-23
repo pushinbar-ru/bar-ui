@@ -1,0 +1,114 @@
+/* TODO: убрать box-sizing в другое место */
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+.float-label {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-bottom: 24px;
+}
+
+.float-label_error {
+	margin-bottom: 4px;
+}
+
+.input {
+	display: block;
+	padding: 12px;
+	padding-right: 36px;
+	width: 100%;
+	color: var(--white);
+	background-color: transparent;
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+	outline: 1px solid var(--white-pressed);
+	border: 0;
+	border-radius: 4px;
+}
+
+.input_error {
+	outline: 1px solid var(--red);
+}
+
+.input:focus-visible {
+	outline: 2px solid var(--yellow);
+}
+
+.input_error:focus-visible {
+	outline: 2px solid var(--red);
+}
+
+.label {
+	position: absolute;
+	padding: 0 12px;
+	transform: translate(0, 12px) scale(1);
+	transform-origin: top left;
+	transition: all 0.2s ease-out;
+
+	opacity: 70%;
+	color: var(--white);
+	font-family: inherit;
+	font-size: 12px;
+	line-height: 20px;
+	pointer-events: none;
+}
+
+.float-label:focus-within .input,
+.label_active + .input {
+	padding-top: 20px;
+	padding-bottom: 4px;
+}
+
+.float-label:focus-within .label,
+.label_active {
+	line-height: 16px;
+	opacity: 100%;
+	transform: translate(0, 4px) scale(1);
+}
+
+.clipboard {
+	position: absolute;
+	right: 0;
+	padding: 14px 8px;
+	cursor: pointer;
+	background: none;
+	outline: none;
+	border: 0;
+	border-radius: 4px;
+}
+
+.clipboard .icon {
+	transition: all 0.3s ease-in-out;
+}
+
+.clipboard .icon:last-child,
+.clipboard_copied .icon:first-child {
+	display: none;
+}
+
+.clipboard_copied .icon:last-child {
+	display: inline;
+}
+
+.error {
+	height: 0;
+	overflow: hidden;
+	transition: height 0.2s ease;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.error,
+.float-label_error .label {
+	color: var(--red);
+}
+
+.float-label_error .error {
+	height: auto;
+}

@@ -1,0 +1,1 @@
+export const addAdditionalClasses = (variantClass: string, wide?: boolean, bold?: boolean) => (wide ? ` ${variantClass}-wide` : '') + (bold ? ' bold' : '')

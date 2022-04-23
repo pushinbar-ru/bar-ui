@@ -1,0 +1,25 @@
+.icon {
+	width: 1em;
+	height: 1em;
+}
+
+.icon_extraLarge {
+	font-size: 24px;
+}
+
+.icon_large {
+	font-size: 20px;
+}
+
+.icon_medium {
+	font-size: 18px;
+}
+
+.icon_small {
+	font-size: 16px;
+}
+
+.icon_selected,
+.icon_selected path {
+	fill: var(--yellow);
+}
